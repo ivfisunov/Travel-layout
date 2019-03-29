@@ -63,6 +63,25 @@
   .travel-box:first-child {
     text-align: center;
   }
+   
+  footer .footer-nav {
+    width: 100%;
+    text-align: center;
+  }
+  footer .social-links {
+    width: 100%;
+    text-align: center;
+  }
+  section.plans .col.span-1-of-3 {
+    margin: 0px 0px 10px 0px;
+  } 
+  section.cities .col.span-1-of-4.box {
+    margin: 0px 0px 10px 0px;
+  }
+  section.quotes .col.span-1-of-3.box {
+    margin: 0px 0px 10px 0px;
+  }
+  
 }
 
 /* Small phones: from 0 to 480px */

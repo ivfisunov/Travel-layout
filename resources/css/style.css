@@ -414,7 +414,7 @@ footer {
 
 footer p {
   text-align: center;
-  color: #9f9f9f;
+  color: #c4c4c4;
   font-size: 80%;
   margin-top: 60px;
 }
@@ -447,7 +447,7 @@ footer p {
 .social-links li a:link,
 .social-links li a:visited {
   text-decoration: none;
-  color: #868383;
+  color: #c4c4c4;
   border: 0;
   transition: color 0.4s;
 }
