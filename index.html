@@ -3,14 +3,16 @@
 <html lang="en">
 
 <head>
-  
-  <meta name="viewport" content="width=device-wisth, initial-scale=1.0">
-  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
   <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
   <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
   <title>Travel to nature</title>
@@ -18,32 +20,33 @@
 
 <body>
   <header>
+    <img src="resources/img/logo.jpg" alt='travel logo' class="logo">
     <nav>
       <div class="row">
-        <img src="resources/img/logo.jpg" alt='travel logo' class="logo">
-        <ul class="main-nav">
-          <li><a href="#">Nature</a></li>
-          <li><a href="#">Cities</a></li>
-          <li><a href="#">Food</a></li> 
-          <li><a href="#">Sign up</a></li>
+        <ul class="main-nav js--main-nav">
+          <li><a href="#quotes">Quotes</a></li>
+          <li><a href="#cities">Cities</a></li>
+          <li><a href="#nature">Nature</a></li>
+          <li><a href="#signup">Sign up</a></li>
         </ul>
+        <a class="mobile-nav-icon js--mobile-nav-icon"><i class="ion-navicon-round"></i></a>
       </div>
     </nav>
     <div class="hero-text-box">
       <h1>Travel to your dream.<br>Don't wait.</h1>
-      <a class="btn btn-full" href="#">I'm ready to go</a>
-      <a class="btn btn-ghost" href="#">Show me more</a>
+      <a class="btn btn-full js--scroll-to-plans" href="#">I'm ready to go</a>
+      <a class="btn btn-ghost js--scroll-to-steps" href="#">Show me more</a>
     </div>
   </header>
-  
-  <section class="qoutes">
+
+  <section class="quotes js--quotes" id="quotes">
     <div class="row">
       <h2>&#9679; A Way of Traveling &#9679;</h2>
       <p class="long-text">
-      To see the world, things dangerous to come to, to see behind walls, draw closer,<br>to find each other, and feel - that is the purpose of life!
+        To see the world, things dangerous to come to, to see behind walls, draw closer,<br>to find each other, and feel - that is the purpose of life!
       </p>
     </div>
-    <div class="row quotes">
+    <div class="row quotes js--wp-1">
       <div class="col span-1-of-3 box">
         <i class="ion-paper-airplane big-icon"></i>
         <h3>Jamie Lyn Beatty</h3>
@@ -53,13 +56,13 @@
         <img src="resources/img/Travel-Quote-JOBS-FILL-YOUR-POCKET.jpg" alt='travel' class="travel-pic">
       </div>
       <div class="col span-1-of-3 box">
-        <i class="ion-compass big-icon"></i> 
+        <i class="ion-compass big-icon"></i>
         <h3>Jack Kerouac</h3>
         <p>
           “Take only memories, leave only footprints.”
         </p>
         <img src="resources/img/Travel-Quote-Take-Only-Memories.jpg" alt='travel' class="travel-pic">
-      </div>  
+      </div>
       <div class="col span-1-of-3 box">
         <i class="ion-earth big-icon"></i>
         <h3>Gustav Flaubert</h3>
@@ -70,7 +73,7 @@
       </div>
     </div>
   </section>
-  <section class="images">
+  <section class="images" id="nature">
     <ul class="image-showcase clearfix">
       <li>
         <figure class="photo">
@@ -103,7 +106,7 @@
         <figure class="photo">
           <img src="resources/img/7.jpg" alt='image here'>
         </figure>
-      </li> 
+      </li>
       <li>
         <figure class="photo">
           <img src="resources/img/8.jpg" alt='image here'>
@@ -116,13 +119,13 @@
       </li>
     </ul>
   </section>
-  
+
   <section class="steps">
     <div class="row">
       <h2>&#9679; How to travel? &#9679;</h2>
     </div>
     <div class="row">
-      <div class="col span-1-of-2 travel-box">
+      <div class="col span-1-of-2 travel-box js--wp-2">
         <img src="resources/img/app-iPhone.png" alt='apple' class="app-screen">
       </div>
       <div class="col span-1-of-2 travel-box">
@@ -143,7 +146,7 @@
       </div>
     </div>
   </section>
-  <section class="cities">
+  <section class="cities" id="cities">
     <div class="row">
       <h2>&#9679; Look at this cities &#9679;</h2>
     </div>
@@ -198,76 +201,76 @@
       </div>
     </div>
   </section>
-  
-  <section class="plans">
+
+  <section class="plans js--plans">
     <div class="row">
       <h2>&#9679; Prices &#9679;</h2>
     </div>
     <div class="row">
+      <div class="col span-1-of-3 js--wp-3">
+        <div class="plan-box">
+          <div>
+            <h3>To San-Francisco</h3>
+            <p class="plan-price">$1200</p>
+            <p class="plan-price-trip">This is cheap</p>
+          </div>
+          <div>
+            <ul>
+              <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="btn btn-full">Sign-up now!</a>
+          </div>
+        </div>
+      </div>
       <div class="col span-1-of-3">
-      <div class="plan-box">
-        <div>
-          <h3>To San-Francisco</h3>
-          <p class="plan-price">$1200</p>
-          <p class="plan-price-trip">This is cheap</p>
+        <div class="plan-box">
+          <div>
+            <h3>To Berlin</h3>
+            <p class="plan-price">$1000</p>
+            <p class="plan-price-trip">This is cheap</p>
+          </div>
+          <div>
+            <ul>
+              <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="btn btn-ghost-price">Sign-up now!</a>
+          </div>
         </div>
-        <div>
-          <ul>
-            <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
-          </ul>
-        </div>
-        <div>
-          <a href="#" class="btn btn-full">Sign-up now!</a>
+      </div>
+      <div class="col span-1-of-3">
+        <div class="plan-box">
+          <div>
+            <h3>To London</h3>
+            <p class="plan-price">$900</p>
+            <p class="plan-price-trip">This is cheap</p>
+          </div>
+          <div>
+            <ul>
+              <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
+              <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="btn btn-ghost-price">Sign-up now!</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col span-1-of-3">
-      <div class="plan-box">
-        <div>
-          <h3>To Berlin</h3>
-          <p class="plan-price">$1000</p>
-          <p class="plan-price-trip">This is cheap</p>
-        </div>
-        <div>
-          <ul>
-            <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
-          </ul>
-        </div>
-        <div>
-          <a href="#" class="btn btn-ghost-price">Sign-up now!</a>
-        </div>
-      </div>
-    </div>
-    <div class="col span-1-of-3">
-      <div class="plan-box">
-        <div>
-          <h3>To London</h3>
-          <p class="plan-price">$900</p>
-          <p class="plan-price-trip">This is cheap</p>
-        </div>
-        <div>
-          <ul>
-            <li><i class="ion-ios-checkmark-empty"> Air plane</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Transfer</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Commodities</i></li>
-            <li><i class="ion-ios-checkmark-empty"> Excurtions</i></li>
-          </ul>
-        </div>
-        <div>
-          <a href="#" class="btn btn-ghost-price">Sign-up now!</a>
-        </div>
-      </div>
-    </div>    
-    </div>    
   </section>
-  
-  <section class="form">
+
+  <section class="form" id="signup">
     <div class="row">
       <h2>I'm happy to hear from you!</h2>
     </div>
@@ -278,7 +281,7 @@
             <label for="name">Name</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="text" name="name" id="name" placeholder="Your name" required> 
+            <input type="text" name="name" id="name" placeholder="Your name" required>
           </div>
         </div>
         <div class="row">
@@ -286,7 +289,7 @@
             <label for="email">Email</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="email" name="email" id="email" placeholder="Your email" required> 
+            <input type="email" name="email" id="email" placeholder="Your email" required>
           </div>
         </div>
         <div class="row">
@@ -299,7 +302,7 @@
               <option value="search">Search</option>
               <option value="dont-know" selected>I dont know</option>
               <option value="other">Other</option>
-            </select> 
+            </select>
           </div>
         </div>
         <div class="row">
@@ -307,10 +310,10 @@
             <label>Newsletter?</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="checkbox" name="news" id="news" checked> Yes! 
+            <input type="checkbox" name="news" id="news" checked> Yes!
           </div>
         </div>
-         <div class="row">
+        <div class="row">
           <div class="col span-1-of-3">
             <label>Write me?</label>
           </div>
@@ -329,7 +332,7 @@
       </form>
     </div>
   </section>
-  
+
   <footer>
     <div class="row">
       <div class="col span-1-of-2">
@@ -353,10 +356,15 @@
         <p>
           Copyright &copy; 2019 by ivfisunov
         </p>
-      </div> 
+      </div>
     </div>
   </footer>
   
+  <script src="vendors/js/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/html5shiv@3.7.3,npm/selectivizr@1.0.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
 </body>
- 
+
 </html>
